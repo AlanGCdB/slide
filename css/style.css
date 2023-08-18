@@ -30,12 +30,10 @@ img {
 
 
 .slide li{
-    width: 80vw;
+    width: 40vw;
     flex-shrink: 0;
     max-width: 800px;
     margin: 0px 20px;
 }
-.slide img{
-    width:50vw;
-}
+
 
