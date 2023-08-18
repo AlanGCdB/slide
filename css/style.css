@@ -1,7 +1,34 @@
-*,*::before,*::after{margin: 0; padding: 0; box-sizing: border-box;}
-li{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+.slide-wrapper{
+    overflow: hidden;
+}
+.slide {
+    display: flex;
+}
+
+.slide li{
+    width: 80vw;
+    flex-shrink: 0;
+    max-width: 800px;
+    margin: 0px 20px;
+}
+.slide{
+    transform: translate3d(-500px,0px,0px,0px);
 }
