@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,12 +16,18 @@ img {
     display: block;
     max-width: 100%;
 }
-.slide-wrapper{
+
+.slide-wrapper {
     overflow: hidden;
+    background: rgba(182, 161, 161, 0.165);
 }
+
 .slide {
     display: flex;
+
 }
+
+
 
 .slide li{
     width: 80vw;
@@ -29,6 +35,7 @@ img {
     max-width: 800px;
     margin: 0px 20px;
 }
-.slide{
-    transform: translate3d(-500px,0px,0px,0px);
+.slide img{
+    width:50vw;
 }
+
