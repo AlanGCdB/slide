@@ -24,16 +24,11 @@ img {
 
 .slide {
     display: flex;
-
 }
 
-
-
-.slide li{
-    width: 40vw;
+.slide li {
     flex-shrink: 0;
+    width: 80vw;
     max-width: 800px;
     margin: 0px 20px;
 }
-
-
