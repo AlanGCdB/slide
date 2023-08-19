@@ -19,12 +19,13 @@ img {
 
 .slide-wrapper {
     overflow: hidden;
-    background: rgba(182, 161, 161, 0.165);
 }
 
 .slide {
     display: flex;
-    transition: .3s;
+}
+.slide:hover{
+    will-change:transform;
 }
 
 .slide li {
@@ -32,4 +33,14 @@ img {
     width: 80vw;
     max-width: 800px;
     margin: 0px 20px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .4);
+    opacity: .8;
+    transform: scale(.8);
+    transition: 1s;
+}
+.slide li.active{
+    opacity: 1;
+    transform: scale(1);
 }
